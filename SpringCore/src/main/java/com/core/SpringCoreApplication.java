@@ -5,6 +5,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.core.emailservice.EmailService;
+import com.core.emailservice.EmailServiceRequest;
 import com.core.profileBasedBeans.ExampleLoadBeanBasedOnProfiles;
 
 @SpringBootApplication
@@ -13,13 +15,18 @@ public class SpringCoreApplication implements CommandLineRunner {
 	@Autowired
 	ExampleLoadBeanBasedOnProfiles exampleLoadBeanBasedOnProfiles;
 	
+	@Autowired
+	EmailService emailservice;
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCoreApplication.class, args);
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		exampleLoadBeanBasedOnProfiles.Test();
+//		emailservice.test();
+//		EmailServiceRequest obj=new EmailServiceRequest();
+//		obj.addNewFile("C:\\Users\\Deepa\\learning\\git_repositoris\\Spring_boot_core\\SpringCore\\src\\main\\resources\\application.properties");
 		
 	}
 
