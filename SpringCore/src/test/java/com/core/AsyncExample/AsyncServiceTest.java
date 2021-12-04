@@ -49,7 +49,7 @@ public class AsyncServiceTest {
 		
 		Future<String> respone=asyncService.f1(1);
 		Assertions.assertFalse(respone.isDone());
-		System.out.println("Test1");
+		System.out.println("Test1"+asyncService.hashCode());
 	}
 	
 	@Test
@@ -63,6 +63,6 @@ public class AsyncServiceTest {
 			e.printStackTrace();
 		}
 		Assertions.assertTrue(respone.isDone());
-		System.out.println("Test2");
+		System.out.println("Test2"+asyncService.hashCode());
 	}
 }

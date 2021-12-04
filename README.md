@@ -10,3 +10,6 @@ SpringCore
 	5. Filters
 	6. Different ways to read configuration 
 	7. JUnit test // /SpringCore/src/test/java/com/core/AsyncExample/AsyncServiceTest.java
+	8. Spring-boot-cache
+	
+Validation & Exception handling	

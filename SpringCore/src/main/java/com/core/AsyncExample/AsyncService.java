@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Service;
 
 @Service
-@Scope("prototype")
+//@Scope("prototype")
 public class AsyncService {
 
 	@Async("test1")
