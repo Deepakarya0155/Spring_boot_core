@@ -12,4 +12,6 @@ SpringCore
 	7. JUnit test // /SpringCore/src/test/java/com/core/AsyncExample/AsyncServiceTest.java
 	8. Spring-boot-cache
 	
-Validation & Exception handling	
+Validation & Exception handling
+	1. validation & custome validation
+	2. global Exception handler
