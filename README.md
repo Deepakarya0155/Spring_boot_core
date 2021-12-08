@@ -17,3 +17,7 @@ Validation & Exception handling
 	2. global Exception handler
 	3. how to get header 
 	4. file download and upload
+
+AOP:
+	1. Point cut
+	2. annoation based
