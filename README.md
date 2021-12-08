@@ -15,3 +15,5 @@ SpringCore
 Validation & Exception handling
 	1. validation & custome validation
 	2. global Exception handler
+	3. how to get header 
+	4. file download and upload
