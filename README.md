@@ -11,6 +11,7 @@ SpringCore
 	6. Different ways to read configuration 
 	7. JUnit test // /SpringCore/src/test/java/com/core/AsyncExample/AsyncServiceTest.java
 	8. Spring-boot-cache
+	9. H2 and rest api get post put delete patch
 	
 Validation & Exception handling
 	1. validation & custome validation
