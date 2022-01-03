@@ -14,4 +14,5 @@ public class RequestEntity {
 	Long userId;
 	String firstName;
 	String lastName;
+	
 }

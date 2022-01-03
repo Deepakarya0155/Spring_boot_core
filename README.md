@@ -11,7 +11,8 @@ SpringCore
 	6. Different ways to read configuration 
 	7. JUnit test // /SpringCore/src/test/java/com/core/AsyncExample/AsyncServiceTest.java
 	8. Spring-boot-cache
-	9. H2 and rest api get post put delete patch
+	9. H2 and rest api get post put delete patch     
+	10 hateos	 
 	
 Validation & Exception handling
 	1. validation & custome validation
@@ -22,3 +23,12 @@ Validation & Exception handling
 AOP:
 	1. Point cut
 	2. annoation based
+
+LocaleExample :
+	1. locale 
+	2. Enable XML respone
+
+Swegger:
+	1. swagger
+	2.  static and dinamic Filter @IgnoreJson 
+	3. API versioning
