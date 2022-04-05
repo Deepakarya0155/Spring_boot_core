@@ -72,6 +72,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
+<!--  JSON logger-->
+	<dependency>
+		<groupId>net.logstash.logback</groupId>
+		<artifactId>logstash-logback-encoder</artifactId>
+		<version>5.2</version>
+	</dependency>
+<!--  JSON logger end-->
 	</dependencies>
 
 	<build>

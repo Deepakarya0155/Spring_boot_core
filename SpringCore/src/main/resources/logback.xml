@@ -2,7 +2,7 @@
 <configuration>
 	<property name="path" value="log" />
 	<property name="archivedPath" value="log/archived" />
-	<property name="pattern" value="%d [%t:%p] [%C:%L] : %m%n" />
+	<property name="pattern" value="%X{id} %X{appname} %d [%t:%p] [%C:%L] : %m%n" />
 	<property name="archivedFileNamePattern"
 		value="%d{yyyy-MM-dd}.%i.log.gz" />
 	<property name="maxfilesize" value="10MB" />
@@ -35,8 +35,14 @@
 		</encoder>
 	</appender>
 
+
+  <appender name="jsonConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+  </appender>
+
 	<root level="INFO">
-		<appender-ref ref="consoleAppender" />
-		<appender-ref ref="consoleFileAppender" />
+	<!-- 	 <appender-ref ref="consoleAppender" />
+		<appender-ref ref="consoleFileAppender" />  -->
+		 <appender-ref ref="jsonConsoleAppender"/> 
 	</root>
 </configuration>
